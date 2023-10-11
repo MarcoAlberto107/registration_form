@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrate</title>
+
+    <link rel="preload" href="index.css" as="style">
+    <link href="index.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <h1>Registrar alumno</h1>
+
+        <img src="icono.png" alt="icono">
+
+        <form class="formulario" method="post" action="card.php">
+
+            <fieldset class="contenido">
+                
+                <div class="bloque nombre">
+                    <label class="bloque__titulo">Nombre</label><br>
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                </div>
+
+                <div class="apellidos">
+                    <label class="bloque__titulo">Apellidos</label><br>
+                    <input type="text" name="apellido" placeholder="Ingresa tus apellidos">
+                </div>
+
+                <div class="edad">
+                    <label class="bloque__titulo">Edad</label><br>
+                    <input type="number" name="edad" placeholder="Edad" name="nombre">
+                </div>
+
+                <div class="correo">
+                    <label class="bloque__titulo">Correo</label><br>
+                    <input type="email" name="correo" placeholder="Ingresa tu dirreción de correo">
+                </div>
+
+                <div class="contraseña">
+                    <label class="bloque__titulo">Contraseña</label><br>
+                    <input type="password" name="contraseña" placeholder="Escribe tu contraseña">
+                </div>
+
+                <input class="boton" type="submit" value="Enviar">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
